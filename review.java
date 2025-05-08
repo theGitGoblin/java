@@ -19,7 +19,17 @@ public class review{
         System.out.println("Send me a number please");
         int userNumber = myScanner.nextInt();
         System.out.println(userNumber);
+
+        int[] myArray = {2, 3, 5};
+        // Printing out a whole array uses something else
+
+
+        System.out.println(myArray);
         // next.Int,.Line,.Double,.Boolean,.hasNext,.hasNextInt
+        for (int i = 0; i < 10; i++){
+
+            System.out.println("Hello world");
+        }
 
     }
 }
