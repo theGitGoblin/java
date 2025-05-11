@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+import java.util.Arrays;
 public class arr {
 
     public static void main(String[] args) {
@@ -26,7 +28,22 @@ public class arr {
         for(int i = 0; i < multiarray.length; i++ ){
             System.out.println(multiarray[i][i + 1]);
         }
+        // Enhanced forloop
+        String[] listOfNames = {"jay","steven", "Micheal", "reeves"};
+        System.out.println(Arrays.toString(listOfNames));
 
+        for(String names: listOfNames){
+            System.out.println(names);
+        }
+        /* ArrayLists
+            Dynamic in nature due to the fact that it will create a nw array and delete the old one and move everything over so no direct size must be given
+            */
+
+            ArrayList<Integer> myChannel = new ArrayList<>(10);
+
+            myChannel.add((3));
+            System.out.println(Arrays.toString(myChannel.toArray()));
+            // What ended up happening is we changed the ArrayList to an Array and transported that into a string
 
 
 
