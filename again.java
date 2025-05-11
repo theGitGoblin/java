@@ -9,8 +9,9 @@ public class again{
         }
         System.out.println(newString);
 
-        // short,int, long
+        // byte, short , int, long
         // float, double
         // char,string
     }
+
 }
