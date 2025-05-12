@@ -7,6 +7,7 @@ class arraypractice{
         String myString;
         ArrayList<String> myArray = new ArrayList<>(1);
         boolean isDone = false;
+        final int pi = 3;
         Scanner myScanner = new Scanner(System.in);
         while(!isDone){
             System.out.println("What String do you want to add?");
