@@ -1,6 +1,4 @@
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Scanner;
+import java.util.ArrayList;import java.util.Arrays;import java.util.Scanner;
 class arraypractice{
     public static void main(String[] args){
         // lets create a new ArrayList
